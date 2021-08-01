@@ -2,12 +2,23 @@
   <main>
     <section class="intro-container">
       <div class="intro-text">
-        <h1>We help businesses and professionals communicate more effectively with an international audience.</h1>
-        <p>Our expertise covers business writing and editing, presentation coaching, market research for Asian companies, and university admissions counseling for international applicants.</p>
+        <h1>{{ $t('home.header') }}</h1>
+        <p>{{ $t('home.subhead') }}</p>
       </div>
     </section>
   </main>
 </template>
+
+<i18n lang="yaml">
+en: 
+  home: 
+    header: We help businesses and professionals communicate more effectively with an international audience.
+    subhead: Our expertise covers business writing and editing, presentation coaching, market research for Asian companies, and university admissions counseling for international applicants.
+kr: 
+  home: 
+    header: 저희 옥스퍼드 잉글리시 서비스(OES)는 세계 각국의 연구팀, 기관, 기업, 인재 대상으로 전문적인 컨설팅 서비스를 제공합니다.
+    subhead: 
+</i18n>
 
 <style scoped>
 .intro-container { 

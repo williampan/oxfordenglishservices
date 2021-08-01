@@ -1,15 +1,30 @@
 <template>
   <header>
     <nav>
-      <NuxtLink id="home-link" to="/">Oxford English Services</NuxtLink>
+      <NuxtLink id="home-link" :to="localePath('/')">Oxford English Services</NuxtLink>
       <div id="small-links">
-        <NuxtLink to="/about">About</NuxtLink>
-        <NuxtLink to="/services">Services</NuxtLink>
-        <a href="mailto:contact.oxford.english@gmail.com">Email</a>
+        <NuxtLink :to="localePath('/about')">{{ $t('nav.about') }}</NuxtLink>
+        <NuxtLink :to="localePath('/services')">{{ $t('nav.services') }}</NuxtLink>
+        <a href="mailto:contact.oxford.english@gmail.com">{{ $t('nav.email') }}</a>
+        <NuxtLink :to="switchLocalePath('kr')" v-if="$i18n.locale === 'en'">한국어</NuxtLink>
+        <NuxtLink :to="switchLocalePath('en')" v-if="$i18n.locale === 'kr'">EN</NuxtLink>
       </div>
     </nav>
   </header>
 </template>
+
+<i18n lang="yaml">
+en: 
+  nav: 
+    about: About
+    services: Services
+    email: Email
+kr: 
+  nav: 
+    about: 소개
+    services: 서비스 종류
+    email: 이메일
+</i18n>
 
 <style scoped>
 header {

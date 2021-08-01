@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'oxfordenglishservices',
+    title: 'Oxford English Services',
     htmlAttrs: {
       lang: 'en'
     },
@@ -39,13 +39,39 @@ export default {
     '@nuxtjs/axios',
 
     // https://content.nuxtjs.org/
-    '@nuxt/content'
+    '@nuxt/content', 
+
+    // https://i18n.nuxtjs.org
+    'nuxt-i18n'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
+  }, 
+
+  // i18n configuration: https://i18n.nuxtjs.org/basic-usage
+  i18n: {
+    locales: ['en', 'kr'], 
+    defaultLocale: 'en', 
+    vueI18n: {
+      fallbackLocale: 'en', 
+      message: {
+        en: {
+        }, 
+        kr: {
+
+        }
+      }
+    }, 
+
+    // Enable per-component translations: 
+    // https://i18n.nuxtjs.org/per-component-translations
+    vueI18nLoader: true
   }
 }
