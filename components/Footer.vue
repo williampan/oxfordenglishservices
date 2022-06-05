@@ -4,6 +4,7 @@
       Oxford English Services<br />
       Ealing, London, United Kingdom<br />
       +44 7926 140861<br />
+      KakaoTalk: henryweikel<br />
       contact.oxford.english@gmail.com
     </div>
   </footer>
