@@ -5,7 +5,8 @@
       Ealing, London, United Kingdom<br />
       +44 7926 140861<br />
       KakaoTalk: henryweikel<br />
-      contact.oxford.english@gmail.com
+      contact.oxford.english@gmail.com<br />
+      Check out our <a href="https://www.youtube.com/@oxfordenglishservices">YouTube channel</a>!
     </div>
   </footer>
 </template>

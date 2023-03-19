@@ -16,10 +16,6 @@ list:
   image: alasdair.jpg
   alt: Alasdair Dow
 - 
-  key: luxi
-  image: luxi.jpg
-  alt: Luxi Liu
-- 
   key: ian
   image: ian.jpg
   alt: Ian Erickson
@@ -27,7 +23,3 @@ list:
   key: pusic
   image: pusic.jpg
   alt: Michael Pusic
-- 
-  key: caroline
-  image: caroline.jpg
-  alt: Caroline Ortiz

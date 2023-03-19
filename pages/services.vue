@@ -43,13 +43,13 @@ en:
       text: We are experts at crafting engaging business copy for websites, apps, products, press releases, and advertisements. Our consultants can assist you through the whole copywriting process, from determining the right tone for your international target audience to publishing content localized for regional markets.
     consulting: 
       header: Global research & consulting
-      text: We work with businesses in a variety of sectors to identify and reach their international market. Our process involves establishing relationships with international counterparts, conducting focus groups and promotional campaigns, and delivering in-depth regional market research. Read more about our past projects.
+      text: We work with businesses in a variety of sectors to identify and reach their international market. Our process involves establishing relationships with international counterparts, conducting focus groups and promotional campaigns, and delivering in-depth regional market research.
     editing: 
       header: Editing
       text: Our consultants are writers in a wide range of fields, with experience editing both academic and business documents. We will work with you to help express your ideas clearly in natural and native sounding English. Particular specialities include client bids, technical or research documents, journal articles, and academic essays.
     admissions: 
       header: University admissions
-      text: We have all graduated from top universities in the UK and the US, and are very familiar with undergraduate and graduate admissions processes. We can read and edit your essays, guide you through the application cycle, and provide you with insider tips about elite schools in the English-speaking world. See some of our successes below.
+      text: We have all graduated from top universities in the UK and the US and are very familiar with undergraduate and graduate admissions processes. We can read and edit your essays, guide you through the application cycle, and provide you with insider tips about elite schools in the English-speaking world. See some of our successes below.
     affiliations: 
       header: Our clients attend...
 kr: 
