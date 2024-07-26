@@ -37,7 +37,7 @@
 <i18n lang="yaml">
 en: 
   services: 
-    header: We help with copywriting, research, editing, and university admissions.
+    header: We help clients excel wherever their English matters most.
     copywriting: 
       header: Curriculum design
       text: We have developed and taught highly specialized courses at some of the world's top summer programs including UC Berkeley, Stanford, Phillips Academy Andover, and King Saud University. Our programs build core skills like writing and engineering through an innovative mixture of project-based learning, "Great Books" style seminars, and outdoor activities.
