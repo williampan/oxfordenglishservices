@@ -5,6 +5,7 @@
       <div id="small-links">
         <NuxtLink :to="localePath('/about')">{{ $t('nav.about') }}</NuxtLink>
         <NuxtLink :to="localePath('/services')">{{ $t('nav.services') }}</NuxtLink>
+        <NuxtLink :to="localePath('/admissions')">{{ $t('nav.admissions') }}</NuxtLink>
         <a href="mailto:contact.oxford.english@gmail.com">{{ $t('nav.email') }}</a>
         <NuxtLink :to="switchLocalePath('kr')" v-if="$i18n.locale === 'en'">한국어</NuxtLink>
         <NuxtLink :to="switchLocalePath('en')" v-if="$i18n.locale === 'kr'">EN</NuxtLink>
@@ -18,11 +19,13 @@ en:
   nav: 
     about: About
     services: Services
+    admissions: Admissions
     email: Email
 kr: 
   nav: 
     about: 소개
     services: 서비스 종류
+    admissions: 입학
     email: 이메일
 </i18n>
 

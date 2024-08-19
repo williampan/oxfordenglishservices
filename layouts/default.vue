@@ -60,7 +60,8 @@ body {
 
 main > section {
     padding: 0 var(--margin-sides); 
-    margin: 60px 0; 
+    margin: 60px 0;
+    margin-bottom: 2rem;
 }
 
 h1 { 
@@ -86,7 +87,7 @@ h3 {
     font-weight: bold; 
 }
 
-p {
-    max-width: 700px; 
+ol li {
+  margin-bottom: 0.5rem; /* Adjust spacing between list items */
 }
 </style>
