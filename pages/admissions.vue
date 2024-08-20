@@ -101,16 +101,16 @@ kr:
       text: <a href="mailto:contact.oxford.english@gmail.com">contact.oxford.english@gmail.com</a> 으로 문의해 주세요. 수요가 많기 때문에 신청 마감일에 가까워질수록 가격과 응답 시간이 변경될 수 있습니다. 일찍 시작하는 것이 가장 좋은 방법입니다! 
 en: 
   admissions: 
-    header: OES specializes in PhD and Master's degree admissions at top American and British universities
-    text: Our tutors have all been accepted at the world’s top PhD programs, allowing them to share personal insight into the application process and strategy. We have helped dozens of Korean applications receive fully funded offers from PhD and MA/MS programs at Harvard, Oxford, Cambridge, UIUC, the University of Washington, Georgetown, Colorado University Boulder, the University of Indiana
+    header: OES specializes in PhD and Master's degree admissions at top universities
+    text: Our tutors study at the world’s top PhD programs, allowing them to share personal insight into the application process and strategy. We have helped dozens of Korean applications receive fully funded offers from PhD and MA/MS programs at Harvard, Oxford, Cambridge, UIUC, the University of Washington, Georgetown, Colorado University Boulder, UT Austin, and the University of Indiana.
     services:
-      header: "We offer the following services related to Graduate admissions:"
+      header: "We offer the following admissions services:"
       bullets:
         - Application strategy and program research
         - Resume and CV
         - Statement of Purpose (SOP)
         - Personal Statement (PS)
-        - Supplementary and Short Answer Questions
+        - Supplementary and Short Answer Questions (Common App, UCAS, UC System)
         - Interview preparation (question lists and practice sessions)
         - Email writing
     approach:
@@ -123,22 +123,22 @@ en:
       header: "Here is a step by step guide to our process:"
       steps:
       - In the first meeting, we typically discuss application strategy and review and edit any preliminary documents, such as your CV and emails expressing interest to professors. (~1 hour)
-      - Following the first meeting, our students normally go write a rough draft of their Statement of Purpose and Personal Statement on their own.
+      - Following the first meeting, students normally go write a rough draft of their Statement of Purpose and Personal Statement on their own.
       - In our second session, we focus primarily on editing your rough draft to transform it into a strong template for all of your SOPs. This will include all of the main body paragraphs and your career goals, but nothing specific to individual schools. (~90min)
       - Moving forward, any additional sessions will be devoted to finishing “tailored” versions of your SOP or other documents. At this point, we can also start working “offline” (using only Google Docs rather than a video call) to make the process more efficient. Please allow one week’s notice when requesting any additional edits, particularly closer to application deadlines.
       - Once you advance in the application process, we offer additional sessions to practice for interviews or prepare important emails to supervisors.
     quote1:
       text: “Mr. Henry Weikel at OES teaches advanced English writing at a different level. I was able to get my academic plan for graduate school abroad critiqued, and I was taught how to write concise and precise English. With a low GPA and no journal publications, I was able to get a scholarship to my desired graduate school abroad because of Henry's professional help. If you take advantage of the Summer Camp to build your writing skills from a young age, you will reap a much bigger harvest in 10 years!”
-      author: Solmi was awarded a scholarship for 2023 and has been accepted into master's programs at several universities in Canada.
+      author: Ariel was awarded a scholarship for 2023 and has been accepted into master's programs at several universities in Canada.
     quote2:
       text: “Oxford English Services helped me to be clearer and more articulate about what I wanted to convey in my writing, and I think it was even more effective because we interacted and revised in real time through Zoom. I highly recommend it to anyone who wants to take their writing to the next level.”
-      author: Soo-Jung was accepted into the Harvard Graduate School of Education's PhD program in 2022. OES helped her with her application strategy, personal statement, and resume. She was also accepted to UCLA, University of Minnesota, Penn State, and UIUC.	
+      author: Soojung was accepted into the Harvard Graduate School of Education's PhD program in 2022. OES helped her with her application strategy, personal statement, and resume. She was also accepted to UCLA, University of Minnesota, Penn State, and UIUC.	
     quote3:
       text: “I hired Henry Weikel to edit my SOP and PS, which I consider to be one of the best decisions I made during my study abroad preparation. He really tries to get to the heart of what I'm trying to say in my documents, so I don't end up writing in a way that I didn't intend, and he comes up with phrases that are more accurate and effective than the original sentences. Beyond proofreading, I also felt like he was thinking about whether the sentence made sense in context or what information I should add or delete to make me a more compelling applicant. In addition, the feedback was not a one-time thing, but a continuous process throughout the application period, and it was very prompt. It's hard to be sure of anything during the application process, but I knew that my SOPs and PS would be better with Henry's feedback, so I was able to prepare without much stress.”
       author: Soyoung was accepted to UW-Madison's master's program in 2023 on a full scholarship. OES helped her with her application strategy, personal statement, and resume. She was also accepted to UC Boulder and Indiana University.
     quote4:
       text: “I've tried other commonly known editing companies in Korea, but OES was the only one that went beyond just correcting words and grammar to help me refine my writing to make it logical and organized. He also has an excellent understanding of research as he has studied at the graduate level. I was able to communicate to Henry the direction I wanted my writing to go in, my interests and research topics, as I was able to do so in real-time via Zoom. I believe that the best SOPs that OES helped me with were a big part of the reason I was accepted into all four master's programs I applied to and received scholarships. I plan to use OES for my future PhD studies as well.”
-      author: In 2023, OES provided scholarships to help Minyong get into all four master's programs she applied to.
+      author: In 2023, OES provided scholarships to help Minyoung get into all four master's programs she applied to.
     contact:
       header: Get Started Today
       text: Email us at <a href="mailto:contact.oxford.english@gmail.com">contact.oxford.english@gmail.com</a> to get started! Due to significant demand, our prices and response times will change based on how soon application deadlines are. Getting started early is the best approach!
