@@ -146,6 +146,9 @@ en:
     quote4:
       text: “I've tried other commonly known editing companies in Korea, but OES was the only one that went beyond just correcting words and grammar to help me refine my writing to make it logical and organized. He also has an excellent understanding of research as he has studied at the graduate level. I was able to communicate to Henry the direction I wanted my writing to go in, my interests and research topics, as I was able to do so in real-time via Zoom. I believe that the best SOPs that OES helped me with were a big part of the reason I was accepted into all four master's programs I applied to and received scholarships. I plan to use OES for my future PhD studies as well.”
       author: In 2023, OES helped Minyoung get into all four master's programs she applied to with scholarships.
+    quote5:
+      text: “OES helped me the most while preparing to study abroad. OES doesn't just correct sentence structure or check for typos. They also change your expressions into the most sophisticated English. And they do it very quickly! Not only that, but if you want, you can get opinions from various angles, such as what storyline fits American culture, so with OES, you can submit a high-quality application. And since Henry, who has personally experienced the graduate school admissions process, will help you, his advice and opinions are very trustworthy. For reference, I was accepted to UC Berkeley and had an interview opportunity at MIT Media Lab and Artcenter through this service. I highly recommend it to others!! :)”
+      author: Gyuyeon was accepted to UC Berkeley for a Master's in Design in 2024.
     contact:
       header: Get Started Today
       text: Email us at <a href="mailto:contact.oxford.english@gmail.com">contact.oxford.english@gmail.com</a> to get started! Due to significant demand, our prices and response times will change based on how soon application deadlines are. Getting started early is the best approach!
