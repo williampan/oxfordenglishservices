@@ -10,6 +10,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
+      { name: 'naver-site-verification', content: '9d5f727843c2afe41742141058a9d97ff240e236' }
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'We help businesses and professionals communicate more effectively with an international audience.' }
     ],
