@@ -9,8 +9,8 @@
     <section>
       <h2>{{ $t('about.team.header') }}</h2>
       <div class="team-grid">
-        <template v-for="member in team.list">
-          <div class="member" :key="member.alt">
+        <template v-for="member in team.list" :key="member.alt">
+          <div class="member">
             <img :src="require(`~/assets/images/team/${member.image}`)" :alt="member.alt" />
             <p>{{ $t(`about.team.members.${member.key}`) }}</p>
           </div>

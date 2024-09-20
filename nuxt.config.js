@@ -36,14 +36,9 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-
-    // https://content.nuxtjs.org/
-    '@nuxt/content', 
-
-    // https://i18n.nuxtjs.org
-    'nuxt-i18n'
+    // '@nuxtjs/axios',       // Add Axios module
+    '@nuxt/content',       // Add Content module
+    '@nuxtjs/i18n'       // Add i18n module
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

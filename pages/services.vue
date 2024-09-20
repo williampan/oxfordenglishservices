@@ -24,8 +24,8 @@
     <section>
       <h2>{{ $t('services.affiliations.header') }}</h2>
       <div class="affiliations-grid">
-        <template v-for="affiliation in affiliations.list">
-          <div class="affiliation-container" :key="affiliation.filename">
+        <template v-for="affiliation in affiliations.list" :key="affiliation.filename">
+          <div class="affiliation-container">
             <img :src="require(`~/assets/images/affiliations/${affiliation.filename}`)" :alt="affiliation.alt" />
           </div>
         </template>
