@@ -4,6 +4,11 @@
       <h1>{{ $t('admissions.header') }}</h1>
     </section>
     <section>
+      <a href="https://payhip.com/b/DSZmq" target="_blank" rel="noopener noreferrer">
+        <h2>{{ $t('admissions.subheader') }}</h2>
+      </a>
+    </section>
+    <section>
       <p>{{ $t('admissions.text') }}</p>
     </section>
     <section>
@@ -109,6 +114,7 @@ kr:
 en: 
   admissions: 
     header: OES specializes in PhD and Master's degree admissions at top universities
+    subheader: Check out our new admissions guide!
     text: Our tutors study at the world’s top PhD programs, allowing them to share personal insight into the application process and strategy. We have helped dozens of applications receive fully funded offers from PhD and MA/MS programs at Harvard, Oxford, Cambridge, UIUC, the University of Washington, Georgetown, Colorado University Boulder, UT Austin, UW Madison, and the University of Indiana.
     services:
       header: "We offer the following admissions services:"
@@ -172,7 +178,7 @@ en:
     margin-top: 50px; 
     display: grid; 
     grid-template-rows: 100%; 
-    grid-template-columns: repeat(4, auto); 
+    grid-template-columns: repeat(5, auto); 
     gap: 0 20px;  
 }
 
