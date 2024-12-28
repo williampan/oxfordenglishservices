@@ -4,10 +4,9 @@
       <NuxtLink id="home-link" :to="localePath('/')">Oxford English Services</NuxtLink>
       <div id="small-links">
         <NuxtLink :to="localePath('/about')">{{ t('nav.about') }}</NuxtLink>
-        <!-- <NuxtLink :to="localePath('/services')">{{ t('nav.services') }}</NuxtLink> -->
-        <NuxtLink :to="localePath('/collegeadmissions')">{{ t('nav.collegeadmissions') }}</NuxtLink>
-        <NuxtLink :to="localePath('/passionprojects')">{{ t('nav.passionprojects') }}</NuxtLink>
-        <NuxtLink :to="localePath('/graduateadmissions')">{{ t('nav.graduateadmissions') }}</NuxtLink>
+        <NuxtLink :to="localePath('/collegeadmissions')" class="no-wrap" >{{ t('nav.collegeadmissions') }}</NuxtLink>
+        <NuxtLink :to="localePath('/passionprojects')" class="no-wrap" >{{ t('nav.passionprojects') }}</NuxtLink>
+        <NuxtLink :to="localePath('/graduateadmissions')" class="no-wrap">{{ t('nav.graduateadmissions') }}</NuxtLink>
         <a href="mailto:contact.oxford.english@gmail.com">{{ t('nav.email') }}</a>
         <NuxtLink :to="switchLocalePath('kr')" v-if="locale === 'en'">한국어</NuxtLink>
         <NuxtLink :to="switchLocalePath('en')" v-if="locale === 'kr'">EN</NuxtLink>
@@ -58,6 +57,9 @@ header nav div#small-links {
     padding-left: 20px; 
 }
 
+.no-wrap {
+  white-space: nowrap; /* Prevents line breaks within the text */
+}
 
 @media screen and (max-width: 600px) {
   header nav {
