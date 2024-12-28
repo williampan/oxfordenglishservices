@@ -2,7 +2,7 @@
   <div class="container">
       <Header /> 
       <main>
-        <Nuxt />
+        <NuxtPage />
       </main>
       <Footer />
     </div>
@@ -11,19 +11,19 @@
 <style>
 @font-face {
     font-family: 'Big Caslon'; 
-    src: url('~/assets/fonts/BigCaslon.woff') format('woff'); 
+    src: url('/fonts/BigCaslon.woff') format('woff'); 
 }
 
 @font-face {
     font-family: 'Neuzeit Office'; 
     font-weight: 400; 
-    src: url('~/assets/fonts/NeuzeitOfficeRegular.woff') format('woff'); 
+    src: url('/fonts/NeuzeitOfficeRegular.woff') format('woff'); 
 }
 
 @font-face {
     font-family: 'Neuzeit Office'; 
     font-weight: 700; 
-    src: url('~/assets/fonts/NeuzeitOfficeBold.woff') format('woff'); 
+    src: url('/fonts/NeuzeitOfficeBold.woff') format('woff'); 
 }
 
 :root { 

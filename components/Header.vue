@@ -3,31 +3,24 @@
     <nav>
       <NuxtLink id="home-link" :to="localePath('/')">Oxford English Services</NuxtLink>
       <div id="small-links">
-        <NuxtLink :to="localePath('/about')">{{ $t('nav.about') }}</NuxtLink>
-        <NuxtLink :to="localePath('/services')">{{ $t('nav.services') }}</NuxtLink>
-        <NuxtLink :to="localePath('/admissions')">{{ $t('nav.admissions') }}</NuxtLink>
-        <a href="mailto:contact.oxford.english@gmail.com">{{ $t('nav.email') }}</a>
-        <NuxtLink :to="switchLocalePath('kr')" v-if="$i18n.locale === 'en'">한국어</NuxtLink>
-        <NuxtLink :to="switchLocalePath('en')" v-if="$i18n.locale === 'kr'">EN</NuxtLink>
+        <NuxtLink :to="localePath('/about')">{{ t('nav.about') }}</NuxtLink>
+        <!-- <NuxtLink :to="localePath('/services')">{{ t('nav.services') }}</NuxtLink> -->
+        <NuxtLink :to="localePath('/collegeadmissions')">{{ t('nav.collegeadmissions') }}</NuxtLink>
+        <NuxtLink :to="localePath('/passionprojects')">{{ t('nav.passionprojects') }}</NuxtLink>
+        <NuxtLink :to="localePath('/graduateadmissions')">{{ t('nav.graduateadmissions') }}</NuxtLink>
+        <a href="mailto:contact.oxford.english@gmail.com">{{ t('nav.email') }}</a>
+        <NuxtLink :to="switchLocalePath('kr')" v-if="locale === 'en'">한국어</NuxtLink>
+        <NuxtLink :to="switchLocalePath('en')" v-if="locale === 'kr'">EN</NuxtLink>
       </div>
     </nav>
   </header>
 </template>
 
-<i18n lang="yaml">
-en: 
-  nav: 
-    about: About
-    services: Services
-    admissions: Admissions
-    email: Email
-kr: 
-  nav: 
-    about: 소개
-    services: 서비스 종류
-    admissions: 입학
-    email: 이메일
-</i18n>
+<script setup>
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
+const switchLocalePath = useSwitchLocalePath()
+</script>
 
 <style scoped>
 header {
