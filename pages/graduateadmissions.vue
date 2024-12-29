@@ -4,9 +4,11 @@
       <h1>{{ t('graduateadmissions.header') }}</h1>
     </section>
     <section>
-      <a href="https://payhip.com/b/DSZmq" target="_blank" rel="noopener noreferrer">
-        <h2>{{ t('graduateadmissions.subheader') }}</h2>
-      </a>
+      <div class="button-container">
+        <a href="https://payhip.com/b/DSZmq" target="_blank" rel="noopener noreferrer" class="button-link">
+          {{ t('graduateadmissions.subheader') }}
+        </a>
+      </div>
     </section>
     <section>
       <p>{{ t('graduateadmissions.text') }}</p>
@@ -56,10 +58,6 @@
           <p style="font-weight: bold;">{{ t('graduateadmissions.quote5.author') }}</p>
         </div>
       </div>
-    </section>
-    <section>
-      <h3>{{ t('graduateadmissions.contact.header') }}</h3>
-      <!-- <p v-html="t('graduateadmissions.contact.text')"></p> -->
     </section>
   </main>
 </template>
@@ -129,5 +127,47 @@ const affiliations = await queryContent('/affiliations').findOne()
   .affiliation-container {
     width: 100%;
   }
+}
+
+.button-container {
+  display: flex;
+  /* Enables flexbox */
+  justify-content: center;
+  /* Centers the button horizontally */
+  margin-bottom: 10px;
+  /* Optional: Add spacing below the button */
+}
+
+.button-link {
+  display: inline-block;
+  /* Allows padding and margin to work properly */
+  padding: 10px 20px;
+  /* Add padding for a button-like feel */
+  background-color: #002147;
+  /* Button background color */
+  color: white;
+  /* Text color */
+  text-decoration: none;
+  /* Remove underline */
+  border: none;
+  /* Remove border */
+  border-radius: 5px;
+  /* Rounded corners */
+  font-size: 32px;
+  /* Adjust font size */
+  text-align: center;
+  /* Center the text */
+  cursor: pointer;
+  /* Show pointer on hover */
+  transition: background-color 0.3s ease;
+  align-items: center;
+  /* Vertical alignment */
+  justify-content: center;
+  /* Horizontal alignment */
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+  /* Darker shade on hover */
 }
 </style>

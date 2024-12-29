@@ -24,7 +24,7 @@
     </section>
     <section>
       <h3>{{ t('collegeadmissions.rate.header') }}</h3>
-      <p>{{ t('collegeadmissions.rate.text1') }}</p>
+      <p v-html="t('collegeadmissions.rate.text1')"></p>
       <li v-for="(bullet, index) in rateBullets" :key="index">
         {{ bullet.body.static }}
       </li>

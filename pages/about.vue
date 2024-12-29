@@ -8,11 +8,11 @@
     </section>
     <section>
       <h2>{{ t('about.henry.header') }}</h2>
-      <div class="image-container">
-        <img :src="`/images/team/henry.jpg`" class="responsive-image" />
+      <div class="content-container">
+        <img :src="`/images/team/henry.jpg`" class="responsive-image"/>
+        <p><b>Specialties:</b> {{ t('about.henry.specialties') }}</p>
+        <p v-html="t('about.henry.text')"></p>
       </div>
-      <p> <b>Specialties:</b> {{ t('about.henry.specialties') }}</p>
-      <p v-html="t('about.henry.text')"></p>
       <h2>{{ t('about.team.header') }}</h2>
       <div class="team-grid">
         <template v-for="member in team.list" :key="member.key">
@@ -37,19 +37,19 @@ const { data: team } = await useAsyncData('team', () => queryContent('team').fin
 </script>
 
 <style scoped>
-.image-container {
-  display: flex;
-  justify-content: center;
-  /* Center horizontally */
-  align-items: center;
-  /* Center vertically */
+.content-container {
+  overflow: hidden; /* Ensures the container wraps around floated elements */
 }
 
 .responsive-image {
-  max-height: 50vh;
-  /* Limit height to 50% of viewport height */
-  width: auto;
-  /* Maintain aspect ratio */
+  float: left; /* Positions the image to the left */
+  width: 40vw; /* Set the image width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 30px 30px 0; /* Add space around the image */
+}
+
+.text-container {
+  overflow: hidden; /* Ensures proper alignment of text next to the image */
 }
 
 .team-grid {
