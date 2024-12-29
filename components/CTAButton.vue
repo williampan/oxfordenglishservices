@@ -12,7 +12,7 @@
     /* Allows padding and margin to work properly */
     padding: 10px 20px;
     /* Add padding for a button-like feel */
-    background-color: #007bff;
+    background-color: #002147;
     /* Button background color */
     color: white;
     /* Text color */
@@ -29,7 +29,8 @@
     cursor: pointer;
     /* Show pointer on hover */
     transition: background-color 0.3s ease;
-    /* Smooth hover effect */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
 }
 
 .button-link:hover {
