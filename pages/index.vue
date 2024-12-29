@@ -4,6 +4,8 @@
       <div class="intro-text">
         <h1>{{ t('home.header') }}</h1>
         <p>{{ t('home.subhead') }}</p>
+        <br>
+        <CTAButton />
       </div>
     </section>
   </main>
@@ -15,25 +17,25 @@ const { t } = useI18n()
 </script>
 
 <style scoped>
-.intro-container { 
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), 30%, rgba(255, 255, 255, 0)), url("/images/high-street.jpg"); 
-  background-size: cover; 
-  background-position: center; 
-  height: 1200px; 
+.intro-container {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), 30%, rgba(255, 255, 255, 0)), url("/images/high-street.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1200px;
   display: flex;
 }
 
-.intro-text { 
-    max-width: 1000px; 
-    margin: 0 auto; 
-    text-align: center; 
+.intro-text {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.intro-text p { 
-  margin: 0 auto; 
+.intro-text p {
+  margin: 0 auto;
 }
 
-img.hero-image { 
-    max-width: 100%; 
+img.hero-image {
+  max-width: 100%;
 }
 </style>
