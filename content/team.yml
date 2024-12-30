@@ -1,8 +1,4 @@
 list:
-  # - key: henry
-  #   image: henry.jpg
-  #   alt: Henry Weikel
-  #   specialities: 
   - key: luxi
     image: luxi.jpg
     alt: Luxi Liu
