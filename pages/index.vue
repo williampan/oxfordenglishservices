@@ -3,7 +3,6 @@
     <section class="intro-container">
       <div class="intro-text">
         <h1>{{ t('home.header') }}</h1>
-        <p>{{ t('home.subhead') }}</p>
         <br>
         <CTAButton />
       </div>
@@ -18,10 +17,10 @@ const { t } = useI18n()
 
 <style scoped>
 .intro-container {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), 30%, rgba(255, 255, 255, 0)), url("/images/high-street.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), 50%, rgba(255, 255, 255, 0)), url("/images/high-street.jpg");
   background-size: cover;
-  background-position: center;
-  height: 1200px;
+  background-position: top;
+  height: 85vh;
   display: flex;
 }
 

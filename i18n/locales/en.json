@@ -1,11 +1,10 @@
 {
   "home": {
-    "header": "Our small network of mentors offers highly effective admissions counseling in California and internationally.",
-    "subhead": "Learn more about our expertise in college admissions, passion project mentorship, and graduate admissions."
+    "header": "Our network of mentors offers highly effective admissions counseling in California and internationally.",
   },
   "collegeadmissions": {
+    "header": "College Admissions",
     "approach": {
-      "header": "Our Approach",
       "text": "At OES, our mentors have collectively guided hundreds of students to acceptances at Ivy League universities, UCs, and the University of Oxford. More importantly, we’ve achieved these results by helping students discover their interests, build original and impactful projects at scale, and develop a stable long-term approach to academics that avoids burnout.<br><br>Large college admissions companies shuffle students through multiple counselors and complex online portals, producing applications that are polished but impersonal. Instead, we focus on creating 1:1 relationships that help students find and communicate their own passions. This is only possible due to our small network of highly accomplished mentors who share their own approach to navigating high school, scaling original projects, and applying to college."
     },
     "services": {
@@ -24,7 +23,11 @@
     "testimonials": "Testimonials",
     "quote1": {
       "text": "“Henry stood out to me from other mentors because he was a jack of all trades. My topic was highly specific and technical, but he was clearly experienced with research papers and I was impressed by his willingness to learn, the effort he spent both inside and out of our sessions to find sources, and his connections to many different fields. Not only did he give great advice for narrowing down ideas, structuring the paper, finding angles, and professional writing itself, Henry was also open to questions about his own experience and helped me discover a passion I wanted to, and now am, pursuing in college.“",
-      "author": " L.S. (South Pasadena High School) was accepted to UC Berkeley in 2024 after working with Henry and OES to publish original research on AI regulation, contributing to a strong application narrative about his passion for the legal and economic dimensions of the technology industry."
+      "author": "L.S. (South Pasadena High School) was accepted to UC Berkeley in 2024 after working with Henry and OES to publish original research on AI regulation, contributing to a strong application narrative about his passion for the legal and economic dimensions of the technology industry."
+    },
+    "quote2": {
+      "text": "“Henry is an excellent tutor. When writing my research paper, his idea suggestions helped me narrow my focus. Also, Henry has a large knowledge base in many subjects, such as science, social sciences, and humanities, which helped quite a bit as he gave me nuanced perspectives on various topics. His world-view is very open and he is very willing to consider other opinions to help achieve your goals. Additionally, his writing skills are excellent. He helped shorten a page of my writing into a cohesive and concise paragraph that was significantly more readable. Overall, Henry is an outstanding tutor/advisor on any project.“",
+      "author": "I.C. (Andover, MA) worked with Henry and OES in 2024 to publish original research on the geopolitical and economic implications of competition in the semiconductor industry, contributing to his applications for Economics and Business majors at T-20 schools."
     },
     "rate": {
       "header": "Hourly Rate",
@@ -43,6 +46,7 @@
     }
   },
   "passionprojects": {
+    "header": "Passion Projects",
     "services": {
       "text": "Collectively, our mentors have worked at all of the major companies offering passion project and research guidance online. Where most companies pad their offerings with needlessly complicated extra features to obscure the lack of guidance (often amounting to fewer than 10 hours), we focus on high-impact, efficient 1:1 meetings with mentors conducted over Google Meets or in-person in San Francisco. Our mentors’ expertise in completing and publicizing projects in their fields is what makes the difference.",
       "header": "We offer:",
@@ -67,7 +71,7 @@
     }
   },
   "graduateadmissions": {
-    "header": "OES specializes in PhD and Master's degree admissions at top universities",
+    "header": "We specialize in PhD and Master's degree admissions at top universities",
     "subheader": "Check out our new admissions guide!",
     "text": "Our tutors study at the world’s top PhD programs, allowing them to share personal insight into the application process and strategy. We have helped dozens of applications receive fully funded offers from PhD and MA/MS programs at Harvard, Oxford, Cambridge, UIUC, the University of Washington, Georgetown, Colorado University Boulder, UT Austin, UW Madison, and the University of Indiana.",
     "services": {

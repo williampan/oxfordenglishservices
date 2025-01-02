@@ -1,7 +1,7 @@
 <template>
   <main>
     <section>
-      <h3>{{ t('collegeadmissions.approach.header') }}</h3>
+      <h1>{{ t('collegeadmissions.header') }}</h1>
       <p v-html="t('collegeadmissions.approach.text')"></p>
     </section>
     <section>
@@ -14,11 +14,15 @@
       <p>{{ t('collegeadmissions.services.text') }}</p>
     </section>
     <section>
+      <h3>{{ t('collegeadmissions.testimonials') }}</h3>
       <div class="collegeadmissions">
         <div class="admission">
-          <h3>{{ t('collegeadmissions.testimonials') }}</h3>
           <p>{{ t('collegeadmissions.quote1.text') }}</p>
-          <p style="font-weight: bold;">{{ t('collegeadmissions.quote1.author') }}</p>
+          <p style="font-weight: bold;">{{ t('collegeadmissions.quote1.author') }}</p><br />
+        </div>
+        <div class="admission">
+          <p>{{ t('collegeadmissions.quote2.text') }}</p>
+          <p style="font-weight: bold;">{{ t('collegeadmissions.quote2.author') }}</p>
         </div>
       </div>
     </section>
@@ -30,6 +34,7 @@
       </li>
       <p>{{ t('collegeadmissions.rate.text2') }}</p>
     </section>
+    <CTAButton />
   </main>
 </template>
 

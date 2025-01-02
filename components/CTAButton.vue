@@ -1,9 +1,11 @@
 <template>
+    <div  class="button-container" >
     <div>
-        <a href="https://calendly.com/henryweikel/application" target="_blank" rel="noopener noreferrer" class="button-link">
+        <a href="https://calendly.com/henryweikel/oes-free-consultation" target="_blank" rel="noopener noreferrer" class="button-link">
             Schedule your free consultation now
         </a>
     </div>
+</div>
 </template>
 
 <style scoped>
@@ -37,4 +39,11 @@
     background-color: #0056b3;
     /* Darker shade on hover */
 }
+
+.button-container {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers the button horizontally */
+  margin-bottom: 10px; /* Optional: Add spacing below the button */
+}
+
 </style>

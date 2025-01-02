@@ -1,6 +1,7 @@
 <template>
   <main>
     <section>
+      <h1>{{ t('passionprojects.header') }}</h1>
       <p>{{ t('passionprojects.services.text') }}</p>
       <h3>{{ t('passionprojects.services.header') }}</h3>
       <ul>
@@ -15,6 +16,7 @@
         {{ bullet.body.static }}
       </li>
     </section>
+    <CTAButton />
   </main>
 </template>
 

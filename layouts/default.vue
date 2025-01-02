@@ -79,7 +79,7 @@ h2 {
     font-family: var(--caslon); 
     font-weight: normal; 
     font-size: var(--h2-font-size); 
-    text-align: center; 
+    text-align: left; 
 }
 
 h3 {

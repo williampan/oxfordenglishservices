@@ -7,13 +7,14 @@
       <p>{{ t('about.text') }}</p>
     </section>
     <section>
-      <h2>{{ t('about.henry.header') }}</h2>
       <div class="content-container">
         <img :src="`/images/team/henry.jpg`" class="responsive-image"/>
+        <h2>{{ t('about.henry.header') }}</h2>
         <p><b>Specialties:</b> {{ t('about.henry.specialties') }}</p>
         <p v-html="t('about.henry.text')"></p>
       </div>
-      <h2>{{ t('about.team.header') }}</h2>
+      <br />
+      <br />
       <div class="team-grid">
         <template v-for="member in team.list" :key="member.key">
           <div class="member">
@@ -25,6 +26,7 @@
         </template>
       </div>
     </section>
+    <CTAButton />
   </main>
 </template>
 
