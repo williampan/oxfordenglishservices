@@ -17,7 +17,7 @@
       <h3>{{ t('graduateadmissions.services.header') }}</h3>
       <ul>
         <li v-for="(bullet, index) in bullets" :key="index">
-          {{ bullet.body.static }}
+          {{ bullet?.body?.static }}
         </li>
       </ul>
     </section>
@@ -31,7 +31,7 @@
       <h3>{{ t('graduateadmissions.steps.header') }}</h3>
       <ol>
         <li v-for="(number, index) in steps" :key="index">
-          {{ number.body.static }}
+          {{ number?.body?.static }}
         </li>
       </ol>
     </section>

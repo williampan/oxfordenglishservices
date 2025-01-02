@@ -8,7 +8,7 @@
       <h3>{{ t('collegeadmissions.services.header') }}</h3>
       <ul>
         <li v-for="(bullet, index) in serviceBullets" :key="index">
-          {{ bullet.body.static }}
+          {{ bullet?.body?.static }}
         </li>
       </ul>
       <p>{{ t('collegeadmissions.services.text') }}</p>
@@ -30,7 +30,7 @@
       <h3>{{ t('collegeadmissions.rate.header') }}</h3>
       <p v-html="t('collegeadmissions.rate.text1')"></p>
       <li v-for="(bullet, index) in rateBullets" :key="index">
-        {{ bullet.body.static }}
+        {{ bullet?.body?.static }}
       </li>
       <p>{{ t('collegeadmissions.rate.text2') }}</p>
     </section>
@@ -41,8 +41,8 @@
 <script setup>
 import { useI18n } from 'vue-i18n';
 const { t, messages, locale } = useI18n();
-const serviceBullets = messages.value[locale.value].collegeadmissions.services.bullets;
-const rateBullets = messages.value[locale.value].collegeadmissions.rate.bullets;
+const serviceBullets = messages?.value[locale?.value]?.collegeadmissions?.services?.bullets;
+const rateBullets = messages?.value[locale?.value]?.collegeadmissions?.rate?.bullets;
 </script>
 
 
