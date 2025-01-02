@@ -6,14 +6,14 @@
       <h3>{{ t('passionprojects.services.header') }}</h3>
       <ul>
         <li v-for="(bullet, index) in serviceBullets" :key="index">
-          {{ bullet?.body?.static }}
+          {{ bullet?.b?.s }}
         </li>
       </ul>
     </section>
     <section>
       <p>{{ t('passionprojects.examples.text') }}</p>
       <li v-for="(bullet, index) in exampleBullets" :key="index">
-        {{ bullet?.body?.static }}
+        {{ bullet?.b?.s }}
       </li>
     </section>
     <CTAButton />
