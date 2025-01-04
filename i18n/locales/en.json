@@ -92,7 +92,7 @@
     },
     "video": {
       "text": "To understand our application support process and learn how to prepare, check out this YouTube video from one of our former students, now at the Harvard Graduate School of Education",
-      "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bXMYaIppGb8?si=2EJ5Iph53cM4XT3z\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "video": "<iframe style=\"max-width: 100%; width: 560px; height: 315px; display: block; margin: 0 auto;\" src=\"https://www.youtube.com/embed/bXMYaIppGb8?si=2EJ5Iph53cM4XT3z\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
     },
     "steps": {
       "header": "Here is a step by step guide to our process:",
