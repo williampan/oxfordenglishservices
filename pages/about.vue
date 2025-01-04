@@ -8,7 +8,7 @@
     </section>
     <section>
       <div class="content-container">
-        <img :src="`/images/team/henry.jpg`" class="responsive-image"/>
+        <img :src="`/images/team/henry.jpg`" class="responsive-image" />
         <h2>{{ t('about.henry.header') }}</h2>
         <p><b>Specialties:</b> {{ t('about.henry.specialties') }}</p>
         <p v-html="t('about.henry.text')"></p>
@@ -40,18 +40,20 @@ const { data: team } = await useAsyncData('team', () => queryContent('team').fin
 
 <style scoped>
 .content-container {
-  overflow: hidden; /* Ensures the container wraps around floated elements */
+  overflow: hidden;
+  /* Ensures the container wraps around floated elements */
 }
 
 .responsive-image {
-  float: left; /* Positions the image to the left */
-  width: 40vw; /* Set the image width */
-  height: auto; /* Maintain aspect ratio */
-  margin: 0 30px 30px 0; /* Add space around the image */
+  float: left;
+  height: auto;
+  margin: 0 30px 30px 0;
+  --gap-width: 30px;
 }
 
 .text-container {
-  overflow: hidden; /* Ensures proper alignment of text next to the image */
+  overflow: hidden;
+  /* Ensures proper alignment of text next to the image */
 }
 
 .team-grid {
@@ -66,9 +68,17 @@ const { data: team } = await useAsyncData('team', () => queryContent('team').fin
   width: 100%;
 }
 
+.responsive-image  {
+  width: 100%;
+}
+
 @media screen and (min-width: 600px) {
   .member {
     width: calc((100% - 1 * var(--gap-width)) / 2);
+  }
+
+  .responsive-image {
+    width: calc((100% - 1 * var(--gap-width)) / 1.5);
   }
 }
 
@@ -76,11 +86,17 @@ const { data: team } = await useAsyncData('team', () => queryContent('team').fin
   .member {
     width: calc((100% - 2 * var(--gap-width)) / 3);
   }
+  .responsive-image {
+    width: calc((100% - 1 * var(--gap-width)) / 2);
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .member {
     width: calc((100% - 3 * var(--gap-width)) / 4);
+  }
+  .responsive-image {
+    width: calc((100% - 1 * var(--gap-width)) / 3);
   }
 }
 
@@ -88,9 +104,16 @@ const { data: team } = await useAsyncData('team', () => queryContent('team').fin
   .member {
     width: calc((100% - 4 * var(--gap-width)) / 5);
   }
+  .responsive-image {
+    width: calc((100% - 1 * var(--gap-width)) / 3);
+  }
 }
 
 .member img {
+  max-width: 100%;
+}
+
+.responsive-image img {
   max-width: 100%;
 }
 </style>

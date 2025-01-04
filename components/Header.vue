@@ -1,8 +1,8 @@
 <template>
   <header>
-    <nav>
+    <nav id="small-links">
       <NuxtLink id="home-link" :to="localePath('/')">Oxford English Services</NuxtLink>
-      <div id="small-links">
+      <div class="links-container">
         <NuxtLink :to="localePath('/about')">{{ t('nav.about') }}</NuxtLink>
         <NuxtLink :to="localePath('/collegeadmissions')">{{ t('nav.collegeadmissions') }}</NuxtLink>
         <NuxtLink :to="localePath('/passionprojects')">{{ t('nav.passionprojects') }}</NuxtLink>
@@ -46,21 +46,30 @@ header nav a#home-link {
   flex: 1;
   font-family: var(--caslon);
   font-size: 1.6em;
+  white-space: nowrap
 }
 
-header nav div#small-links {
+/* header nav div#small-links {
   flex: 1;
   text-align: right;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;  /* This alone will handle spacing between items */
+  gap: 1rem;
+} */
+
+header nav div.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the links */
+  gap: 1rem; /* Add gap between individual links */
 }
 
-#small-links a {
+
+/* #small-links a {
   white-space: nowrap;
-}
+} */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   header nav {
     flex-direction: column;
     text-align: center;
@@ -68,7 +77,7 @@ header nav div#small-links {
     align-items: center;
   }
 
-  header nav div#small-links {
+  header nav div.links-container {
     text-align: center;
   }
 }
