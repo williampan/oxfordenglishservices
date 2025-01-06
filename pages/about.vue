@@ -2,8 +2,6 @@
   <main>
     <section>
       <h1>{{ t('about.header') }}</h1>
-    </section>
-    <section>
       <p>{{ t('about.text') }}</p>
     </section>
     <section>
