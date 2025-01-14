@@ -4,11 +4,11 @@ list:
     alt: Luxi Liu
     specialities: AI, Game Development, Competition and Admissions Test Math, Statistics, Computer Science
     bio: "After testing into Westminster School (regularly ranked as the top secondary school in the UK), Luxi received a bachelor’s and master’s in Mathematics from Imperial College London. She now works on the Computer Vision team at Amazon Ring as a software developer. Outside of work, she has written some of the top-ranked novels on the fiction platform Wattpad and developed popular mobile and VR games including titles ranked #2 in the Apple App Store. At OES, Luxi works with students to build original and creative applications of contemporary AI research such as games, web apps, mobile apps, and wearables."
-  - key: pusic
-    image: pusic.jpg
-    alt: Michael Pusic
-    specialities: Pre-Law, Consulting, Charities and NGOs, Social Sciences Research, Columbia, Harvard 
-    bio: After completing his degree in Economics and Comparative Literature at Columbia University, Michael Pusic went on to the University of Oxford, where he was a fully-funded Clarendon Scholar. He is currently a student at Harvard Law School where he specializes in international development, with experience at McKinsey & Company, the US International Development Finance Corporation, and multiple high-impact NGOs in Ukraine and Africa. At OES, Michael helps students scale their charities and apply to pre-law programs, law school, and MBB consulting firms in the US.
+  - key: mohammed
+    image: mohammed.jpg
+    alt: Mohammed Begi
+    specialities: Ivy League, Oxford (PPE), Education, Charities and NGOs
+    bio: Mohammed Begi is a lecturer at the Harvard Graduate School of Education and a Project Coordinator at TeachAI. After completing his bachelor's at Oxford and his master's at Harvard, Mohammed has directed research into global education policy and taught at leading private schools including Phillips Academy Andover. As an admissions counselor, Mohammed specializes in helping international students get accepted to Ivy League and Russell Group universities.
   - key: henry-cerbone
     image: henryc.jpg
     alt: Henry Cerbone
@@ -24,8 +24,8 @@ list:
     alt: Ian Erickson
     specialities: Ivy League, Architecture, Design, Fine Arts
     bio: Ian Erickson is a Dean’s Merit Scholar at the Harvard Graduate School of Design where he is pursuing a Masters of Architecture. He is the founding editor of Disc. Journal, a yearly book-length publication exploring technology and media. He has extensive experience writing and editing scholarly work published in Princeton, Yale, and Cambridge journals and contributing to the Seoul and Venice Biennales of Architecture. He has advised many successful applicants to top programs in architecture, design, and related fields and specializes in portfolio reviews and original publishing and media projects.
-  - key: mohammed
-    image: mohammed.jpg
-    alt: Mohammed Begi
-    specialities: Ivy League, Oxford (PPE), Education, Charities and NGOs
-    bio: Mohammed Begi is a lecturer at the Harvard Graduate School of Education and a Project Coordinator at TeachAI. After completing his bachelor's at Oxford and his master's at Harvard, Mohammed has directed research into global education policy and taught at leading private schools including Phillips Academy Andover. As an admissions counselor, Mohammed specializes in helping international students get accepted to Ivy League and Russell Group universities.
+  - key: pusic
+    image: pusic.jpg
+    alt: Michael Pusic
+    specialities: Pre-Law, Consulting, Charities and NGOs, Social Sciences Research, Columbia, Harvard 
+    bio: After completing his degree in Economics and Comparative Literature at Columbia University, Michael Pusic went on to the University of Oxford, where he was a fully-funded Clarendon Scholar. He is currently a student at Harvard Law School where he specializes in international development, with experience at McKinsey & Company, the US International Development Finance Corporation, and multiple high-impact NGOs in Ukraine and Africa. At OES, Michael helps students scale their charities and apply to pre-law programs, law school, and MBB consulting firms in the US.
