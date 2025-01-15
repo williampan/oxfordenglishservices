@@ -12,6 +12,21 @@ export default defineNuxtConfig({
         { name: 'description', content: 'We help businesses and professionals communicate more effectively with an international audience.' },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      script: [
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=AW-11564504470',
+          async: true,
+        },
+        {
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11564504470');
+          `,
+          type: 'text/javascript',
+        },
+      ]
     },
   },
 
