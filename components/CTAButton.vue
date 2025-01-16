@@ -1,12 +1,37 @@
 <template>
-    <div  class="button-container" >
-    <div>
-        <a href="https://calendly.com/henryweikel/oes-free-consultation" target="_blank" rel="noopener noreferrer" class="button-link">
-            Schedule your free consultation now
+    <div class="button-container">
+      <div>
+        <a
+          rel="noopener noreferrer"
+          class="button-link"
+          @click.prevent="trackConversion"
+          aria-label="Schedule your free consultation now"
+        >
+          Schedule your free consultation now
         </a>
+      </div>
     </div>
-</div>
-</template>
+  </template>
+  
+
+  <script>
+  export default {
+    methods: {
+      trackConversion() {
+        // Check if gtag is available
+        if (typeof gtag !== "undefined") {
+          gtag('event', 'conversion', {
+            send_to: 'AW-11564504470/Qos2CM3NoooaEJarsYor',
+          });
+        } else {
+          console.warn('gtag is not defined. Ensure the Google Ads script is loaded.');
+        }
+        window.open('https://calendly.com/henryweikel/oes-free-consultation', '_blank');
+      },
+    },
+  };
+  </script>
+  
 
 <style scoped>
 .button-link {
