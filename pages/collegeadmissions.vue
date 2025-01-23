@@ -5,16 +5,34 @@
       <p v-html="t('collegeadmissions.approach.text')"></p>
     </section>
     <section>
-      <h3>{{ t('collegeadmissions.services.header') }}</h3>
-      <ul>
-        <li v-for="(bullet, index) in serviceBullets" :key="index">
-          {{ bullet?.b?.s }}
-        </li>
-      </ul>
-      <p>{{ t('collegeadmissions.services.text') }}</p>
+      <div class="collegeadmissions">
+        <div class="admission">
+          <h2>{{ t('collegeadmissions.leftcol.header') }}</h2>
+          <h3>{{ t('collegeadmissions.leftcol.subheader') }}</h3>
+          <p v-html="t('collegeadmissions.leftcol.text')"></p>
+          <ul>
+            <li v-for="(bullet, index) in leftColBullets" :key="index">
+              {{ bullet?.b?.s }}
+            </li>
+          </ul>
+          <img :src="`/images/highschoolprocess.jpg`"/>
+        </div>
+        <div class="admission">
+          <h2>{{ t('collegeadmissions.rightcol.header') }}</h2>
+          <h3>{{ t('collegeadmissions.rightcol.subheader') }}</h3>
+          <p v-html="t('collegeadmissions.rightcol.text')"></p>
+          <ul>
+            <li v-for="(bullet, index) in rightColBullets" :key="index">
+              {{ bullet?.b?.s }}
+            </li>
+          </ul>
+          <img :src="`/images/applyingprocess.jpg`"/>
+        </div>
+      </div>
     </section>
+    <CTAButton />
     <section>
-      <h3>{{ t('collegeadmissions.testimonials') }}</h3>
+      <h2>{{ t('collegeadmissions.testimonials') }}</h2>
       <div class="collegeadmissions">
         <div class="admission">
           <p>{{ t('collegeadmissions.quote1.text') }}</p>
@@ -24,15 +42,15 @@
           <p>{{ t('collegeadmissions.quote2.text') }}</p>
           <p style="font-weight: bold;">{{ t('collegeadmissions.quote2.author') }}</p>
         </div>
+        <div class="admission">
+          <p>{{ t('collegeadmissions.quote3.text') }}</p>
+          <p style="font-weight: bold;">{{ t('collegeadmissions.quote3.author') }}</p>
+        </div>
       </div>
     </section>
     <section>
-      <h3>{{ t('collegeadmissions.rate.header') }}</h3>
-      <p v-html="t('collegeadmissions.rate.text1')"></p>
-      <li v-for="(bullet, index) in rateBullets" :key="index">
-        {{ bullet?.b?.s }}
-      </li>
-      <p>{{ t('collegeadmissions.rate.text2') }}</p>
+      <h2>{{ t('collegeadmissions.rate.header') }}</h2>
+      <p v-html="t('collegeadmissions.rate.text')"></p>
     </section>
     <CTAButton />
   </main>
@@ -42,7 +60,8 @@
 import { useI18n } from 'vue-i18n';
 const { t, messages, locale } = useI18n();
 const serviceBullets = messages.value[locale.value].collegeadmissions.services.bullets;
-const rateBullets = messages.value[locale.value].collegeadmissions.rate.bullets;
+const leftColBullets = messages.value[locale.value].collegeadmissions.leftcol.bullets;
+const rightColBullets = messages.value[locale.value].collegeadmissions.rightcol.bullets;
 </script>
 
 
@@ -53,6 +72,13 @@ const rateBullets = messages.value[locale.value].collegeadmissions.rate.bullets;
   grid-template-rows: 100%;
   grid-template-columns: repeat(5, auto);
   gap: 0 20px;
+}
+
+.admission img {
+  max-width: 60%; /* Prevent the image from exceeding the column's width */
+  height: auto;    /* Maintain the aspect ratio */
+  display: block;  /* Prevent unnecessary whitespace below the image */
+  margin: 0 auto;  /* Center the image if needed */
 }
 
 @media screen and (max-width: 1500px) {

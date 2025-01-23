@@ -1,11 +1,12 @@
 {
   "home": {
-    "header": "Our network of mentors offers highly effective admissions counseling in California and internationally."
+    "header": "Highly effective admissions counseling in California and internationally.",
+    "subheader": "Our network of mentors have helped 200+ students enroll in top colleges at the undergraduate and graduate level."
   },
   "collegeadmissions": {
-    "header": "College Admissions",
+    "header": "200+ Admissions to Top Colleges",
     "approach": {
-      "text": "At OES, our mentors have collectively guided hundreds of students to acceptances at Ivy League universities, UCs, and the University of Oxford. More importantly, we’ve achieved these results by helping students discover their interests, build original and impactful projects at scale, and develop a stable long-term approach to academics that avoids burnout.<br><br>Large college admissions companies shuffle students through multiple counselors and complex online portals, producing applications that are polished but impersonal. Instead, we focus on creating 1:1 relationships that help students find and communicate their own passions. This is only possible due to our small network of highly accomplished mentors who share their own approach to navigating high school, scaling original projects, and applying to college."
+      "text": "<a href=\"/about\" target=\"_blank\">Our mentors</a> have guided 200+ students to acceptances at Ivy League universities, UCs, and the University of Oxford. We’ve achieved these results by helping students build original and impactful projects at scale and develop a long-term approach to academics that avoids burnout.<br><br>Large college admissions companies shuffle students through multiple counselors and complex online portals, producing applications that are polished but impersonal. Instead, our small network of highly accomplished mentors work to build a strong relationship and share their own approach to navigating high school, scaling projects, and applying to college."
     },
     "services": {
       "header": "We specialise in:",
@@ -20,6 +21,29 @@
       ],
       "text": "Drawing on his successful record in admissions counseling and extensive experience directing academic programs at Phillips Academy Andover, Berkeley, and Oxford, Henry Weikel directs our college admissions program and serves as the main point of contact for each family. Learn more about our network of mentors here."
     },
+    "leftcol": {
+      "header": "Navigating High School",
+      "subheader": "Freshman High - Junior Year",
+      "text": "We support your family for every key decision throughout high school, including:",
+      "bullets": [
+        "Class selection and success (Honors, AP, IB, Dual Enrollment)",
+        "Hands-on extracurricular guidance (robotics, debate, math, student leadership)",
+        "Summer applications (from getting into COSMOS to finding the best programs you haven’t heard of)",
+        "Passion projects that blend creativity, impact, original academic research, and technical skills"
+      ]
+    },
+    "rightcol": {
+      "header": "Applying to College",
+      "subheader": "Junior Year Winter - Senior Year",
+      "text": "Our expertise simplifies the process of applying to:",
+      "bullets": [
+      "University of California (UC) schools and highly selective UC majors like EECS, Computer Science, Data Science, Design Media Arts, etc.",
+      "Ivy League and T-20 schools.",
+      "The UK University application process (UCAS), particularly Oxford and Cambridge admissions exams and interviews.",
+      "Computer Science and Engineering majors",
+      "Humanities, Business, and non-traditional programs (Deep Springs College, BA/BFA, etc)."
+      ]
+    },
     "testimonials": "Testimonials",
     "quote1": {
       "text": "“Henry stood out to me from other mentors because he was a jack of all trades. My topic was highly specific and technical, but he was clearly experienced with research papers and I was impressed by his willingness to learn, the effort he spent both inside and out of our sessions to find sources, and his connections to many different fields. Not only did he give great advice for narrowing down ideas, structuring the paper, finding angles, and professional writing itself, Henry was also open to questions about his own experience and helped me discover a passion I wanted to, and now am, pursuing in college.“",
@@ -29,9 +53,13 @@
       "text": "“Henry is an excellent tutor. When writing my research paper, his idea suggestions helped me narrow my focus. Also, Henry has a large knowledge base in many subjects, such as science, social sciences, and humanities, which helped quite a bit as he gave me nuanced perspectives on various topics. His world-view is very open and he is very willing to consider other opinions to help achieve your goals. Additionally, his writing skills are excellent. He helped shorten a page of my writing into a cohesive and concise paragraph that was significantly more readable. Overall, Henry is an outstanding tutor/advisor on any project.“",
       "author": "I.C. (Andover, MA) worked with Henry and OES in 2024 to publish original research on the geopolitical and economic implications of competition in the semiconductor industry, contributing to his applications for Economics and Business majors at T-20 schools."
     },
+    "quote3": {
+      "text": "“OES helped me to be clearer and more articulate about what I wanted to convey in my writing, and I think it was even more effective because we interacted and revised in real time through Zoom. I highly recommend it to anyone who wants to take their writing to the next level.”",
+      "author": "Soojung L. was accepted to Harvard in 2022. OES helped her with her application strategy, essays, and project positioning. She was also accepted to UPenn, UCLA, Penn State, and UIUC."
+    },
     "rate": {
       "header": "Pricing",
-      "text1": "Most major college admissions companies and private consultants charge a flat rate for packages, which are padded with multiple counselors and needlessly complicated tools such as dashboards and AI prediction models. These features distract from the core value being offered: quick responses and personalized guidance on the process of self discovery and self expression that leads to a successful application and, more importantly, a joyful and energetic college experience.<br><br>Our approach is simpler. We charge a flat rate for every hour you or your child spends meeting with us, whether that’s over Google Meet or in-person in San Francisco. Our rate reflects our decision not to expand but rather to provide highly personalized services to a small number of students each year. Unlike a standard package, this model guarantees our full attention, offers flexible access to our network of expert mentors, and ensures that you only pay for the time that your child needs. We operate exclusively through word-of-mouth referrals and work to keep your business with every session, so it is in our best interest to provide the most value possible in each hour.<br><br>In our hourly meetings, we can cover any areas necessary including:",
+      "text": "Most major college admissions companies and private consultants charge a flat rate for packages, which are padded with multiple counselors and needlessly complicated tools such as dashboards and AI prediction models. These features distract from the core value being offered: quick responses and personalized guidance on the process of self discovery and self expression that leads to a successful application and, more importantly, a joyful and energetic college experience.<br><br>Our approach is simpler. We charge a flat rate for every hour you or your child spends meeting with us, whether that’s over Google Meet or in-person in San Francisco. Our rate reflects our decision not to expand but rather to provide highly personalized services to a small number of students each year. This model guarantees our full attention, offers flexible access to our network of expert mentors, and ensures that you only pay for the time that your child needs. We operate exclusively through word-of-mouth referrals and work to keep your business with every session, so it is in our best interest to provide the most value possible in each hour.<br><br>We have experience traveling domestically and abroad for in-person guidance and last minute application assistance. Contact us for more information and to discuss current pricing.",
       "bullets": [
         "Simplified overviews of the application process, including timelines and key context",
         "High school and dual enrollment course selection",

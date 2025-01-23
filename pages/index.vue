@@ -3,6 +3,7 @@
     <section class="intro-container">
       <div class="intro-text">
         <h1>{{ t('home.header') }}</h1>
+        <h3>{{ t('home.subheader') }}</h3>
         <br>
         <CTAButton />
       </div>
