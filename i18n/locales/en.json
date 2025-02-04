@@ -74,28 +74,27 @@
     }
   },
   "passionprojects": {
-    "header": "Passion Projects",
+    "header": "Stand Out to Top Colleges",
     "services": {
-      "text": "Collectively, our mentors have worked at all of the major companies offering passion project and research guidance online. Where most companies pad their offerings with needlessly complicated extra features to obscure the lack of guidance (often amounting to fewer than 10 hours), we focus on high-impact, efficient 1:1 meetings with mentors conducted over Google Meets or in-person in San Francisco. Our mentors’ expertise in completing and publicizing projects in their fields is what makes the difference.",
-      "header": "We offer:",
-      "bullets": [
-        "Full-service mentorship on research question formation, literature reviews, qualitative and quantitative research methods, manuscript preparation, revision, and submission.",
-        "Connections with top graduate student mentors in any field. See our team bios to learn about our areas of expertise.",
-        "Guidance on publication and promotion options for completed projects including videos, blogs, academic journals, portfolios, etc.",
-        "Practical guidance on the logistics of building and scaling online businesses, charities & NGOs, or social media accounts.",
-        "Application assistance for selective summer research programs such as COSMOS.",
-        "Warm connections to impactful and engaging internships at start-ups."
-      ]
+      "text": "Only 10% of students with perfect SAT scores are admitted to Harvard each year. In 2019, one third of successful applicants to the Ivy League had published academic research in high school. Now, as these experiences become common among applicants, colleges are increasingly looking for <b>self-directed</b> projects that show passion, creativity, and impact. Our mentors are uniquely positioned to help students turn their interests into winning projects."
     },
     "examples": {
-      "text": "Examples of projects we have mentored previously",
+      "text": "Previous projects we have mentored include:",
       "bullets": [
-        "An engaging long-form article on AI regulation policy - comparing legislation in California, other leading states, and the EU - that helped a student get accepted to UC Berkeley in 2024.",
-        "An original, published article on emerging trends in the economics of the semiconductor industry in Taiwan, China, and the US.",
-        "Going from no experience to winning major Bay Area parliamentary debate tournaments in less than a year.",
-        "Building the #2 Paid Puzzle Game on the Apple App Store.",
-        "Scaling a youtube channel focused on a popular mobile game to over 1 million subscribers and writing a strong Common App statement about the process."     
+        "Scaling a youtube channel focused on a popular mobile game to over 1 million subscribers and writing a strong Common App statement about the process.",
+        "Publishing an article on emerging trends in the economics of the semiconductor industry in Taiwan, China, and the US.",
+        "Winning major debate tournaments in the Bay Area with less than a year’s experience",
+        "Publishing a long-form article on AI regulation policy - comparing legislation in California, other states, and the EU - that helped a student get accepted to UC Berkeley in 2024.",
+        "Building the #2 Paid Puzzle Game on the Apple App Store"
       ]
+    },
+    "quote1": {
+      "text": "“Henry stood out to me from other mentors because he was a jack of all trades. My topic was highly specific and technical, but he was clearly experienced with research papers and I was impressed by his willingness to learn, the effort he spent both inside and out of our sessions to find sources, and his connections to many different fields. Not only did he give great advice for narrowing down ideas, structuring the paper, finding angles, and professional writing itself, Henry was also open to questions about his own experience and helped me discover a passion I wanted to, and now am, pursuing in college.“",
+      "author": "L.S. (South Pasadena High School) was accepted to UC Berkeley in 2024 after working with Henry and OES to publish original research on AI regulation, contributing to a strong application narrative about his passion for the legal and economic dimensions of the technology industry."
+    },
+    "quote2": {
+      "text": "“Henry is an excellent tutor. When writing my research paper, his idea suggestions helped me narrow my focus. Also, Henry has a large knowledge base in many subjects, such as science, social sciences, and humanities, which helped quite a bit as he gave me nuanced perspectives on various topics. His world-view is very open and he is very willing to consider other opinions to help achieve your goals. Additionally, his writing skills are excellent. He helped shorten a page of my writing into a cohesive and concise paragraph that was significantly more readable. Overall, Henry is an outstanding tutor/advisor on any project.”",
+      "author": "I.C. (Andover, MA) worked with Henry and OES in 2024 to publish original research on the geopolitical and economic implications of competition in the semiconductor industry, contributing to his applications for Economics and Business majors at T-20 schools."
     }
   },
   "graduateadmissions": {
