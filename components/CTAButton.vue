@@ -26,7 +26,7 @@
         } else {
           console.warn('gtag is not defined. Ensure the Google Ads script is loaded.');
         }
-        window.open('https://calendly.com/henryweikel/oes-free-consultation', '_blank');
+        window.open('https://calendar.app.google/awjShkYw3VYwf73Q6', '_blank');
       },
     },
   };
