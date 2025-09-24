@@ -7,7 +7,7 @@
           @click.prevent="trackConversion"
           aria-label="Schedule your free consultation now"
         >
-          Schedule your free consultation now
+          Get Started Now
         </a>
       </div>
     </div>
@@ -26,7 +26,7 @@
         } else {
           console.warn('gtag is not defined. Ensure the Google Ads script is loaded.');
         }
-        window.open('https://calendar.app.google/awjShkYw3VYwf73Q6', '_blank');
+        window.open('mailto:contact.oxford.english@gmail.com', '_blank');
       },
     },
   };
